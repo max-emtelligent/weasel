@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Event trigger `RemoveEntityTrigger` that can fire either a `RemoveCreature` or a `RemoveObject`.
-- New associated types `Power` and `PowerSeed` in `TeamRules`.
+- Added team powers.
+- New associated types `Power`, `PowersSeed` and `PowersAlteration` in `TeamRules`.
+- New methods `generate_powers` and `alter_powers` in `TeamRules`.
 
 ## [0.8.0] - 2020-07-06
 ### Added
